@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #012b41;
+  color: #fff;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+.header-main {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(https://s2.best-wallpaper.net/wallpaper/1440x900/1712/Brooklyn-bridge-skyscrapers-New-York-city-night-lights-USA_1440x900.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-main h1 {
+  text-transform: uppercase;
+  font-size: 6em;
+  animation: glow 2s infinite alternate;
+}
+@keyframes glow {
+  from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+
+	to {
+		text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+	}
+}
+
+section {
+  position: relative;
+  top: 100vh;
+  padding: 2em 4em;
+}
+
+p {
+  margin-bottom: 10px;
+}
